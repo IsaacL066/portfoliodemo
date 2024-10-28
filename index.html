@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio isaac</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="LOGO SOFTWARE.ico">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Isaac</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="Mis Proyectos.html" onclick="seleccionar()">MIS PROYECTOS </a></li>
+                    <li><a href="Mis logros.html" onclick="seleccionar()">MI LOGROS </a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/López sac.jpeg" alt="">
+            </div>
+            <h1>ISAAC LÓPEZ</h1>
+            <h2>Técnico en Software - Experto GNU/LINUX</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/IssELop"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/invites/contact/?igsh=1upy10erd3tlg&utm_content=o9leb1f"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/IsaacL066"><i class="fa-brands fa-github"></i></a>
+               
+             
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Isaac López.</span> Soy una persona proactiva, excelente compañero de equipo, organizado y responsable de disiplina . Disfruto mucho aprender cosas nuevas, por lo que mi objetivo es un puesto desafiante y dinámico donde poder compartir mi experiencia y a su vez sumar nuevos conocimientos y mejoras en la empresa dando una buena calidad de trabajo en la amplia gama de la tecnología .</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong> 06-02-2006
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>+503 60249984
+                        </li>
+                        <li>
+                            <strong>Email</strong>isaaclopezz983@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong> www portfolio isaac.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            San Miguel Tepezontes 
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Studiante</span>
+                        </li>
+                        <li>
+                            <strong>Nacionalidad</strong>
+                            Salvadoreño
+                        </li>
+                        <li>
+                            <strong>Genero</strong>
+                            Masculino
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descargar CV <a href="https://drive.google.com/drive/folders/1IResPH6KAFnlimYLVQAS36BdbXT5VPfv?usp=sharing"><i class="fa-regular fa-circle-down"></i></a>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Habilidades.</h3>
+
+                    <!-- Icoin Java Js-->
+                    <i class="fa-brands fa-js"></i> <i class="fa-brands fa-java"></i>
+                    <div class="skill">
+                        <span>Javascript & java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icoin Html Css PHP-->
+                    <i class="fa-brands fa-html5"></i> <i class="fa-brands fa-css3-alt"></i> <i class="fa-brands fa-php"></i>
+                    <div class="skill">
+                        <span>HTML & CSS & PHP </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Icoin Adobe-->
+                    <i class="fa-solid fa-bezier-curve"></i>
+                    <div class="skill">
+                        <span>Photoshop & Illustrador & Inkscape </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icoin Wordpress-->
+                    <i class="fa-brands fa-wordpress"></i>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>91%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Arduino-->
+                    <i class="fa-solid fa-robot">  </i>   <i class="fa-solid fa-c"></i>
+                    <div class="skill">
+                        <span>Entorno Arduino & C++</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3></h3>
+                    <i class="fa-brands fa-github"></i>
+                    <div class="skill">
+                        <span>Git hub</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Icoin 3D-->
+                    <i class="fa-solid fa-cube"></i>
+                    <div class="skill">
+                        <span>Impresión 3D</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- react -->
+                    <i class="fa-brands fa-react"></i>
+                    <div class="skill">
+                        <span>REACT</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Icoin Adobe -->
+                    <i class="fa-solid fa-headphones"></i>  <i class="fa-solid fa-play"></i>
+                    <div class="skill">
+                        <span>Adobe Audition & Adobe premiere & KDenlive </span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Android Studio-->
+                    <i class="fa-brands fa-android"></i> <i class="fa-solid fa-mobile"></i>
+                    <div class="skill">
+                        <span>Android Studio</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Linux Add -->
+                    <i class="fa-brands fa-linux"></i>
+                    <div class="skill">
+                        <span>Linux</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>1° Año Técnico en Desarrollo de Software</h4>
+                        <span class="casa">INSTITUTO NACIONAL DE SAN MIGUEL TEPEZONTES</span>
+                        <span class="fecha">2022</span>
+                        <p>Introducción a las lógicas de programación, Diseño Gráfico, Curso de Arduino, Curso de Robotica educativa, C++, Utilización del programa Pseint </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>2° Año Técnico en desarrollo de Software</h4>
+                        <span class="casa">INSTITUTO NACIONAL DE SAN MIGUEL TEPEZONTES </span>
+                        <span class="fecha">2023</span>
+                        <p>Adquiri conocimiento creando entornos de páginas wed, aprendi los lenguajes de programación en java & JS, html, php, Bases de Datos en SQL Server y primeras practicas en entornos Linux</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>3° Año Técnico en Desarrollo de Software</h4>
+                        <span class="casa">INSTITUTO NACIONAL DE SAN MIGUEL TEPEZONTES</span>
+                        <span class="fecha">2024</span>
+                        <p>Aprendi a utilizar Git Hub y habilidades en Entornos de LINUX, además se desarrollo el curso de Impresión 3D donde se utilizó la creatividad y a dar soluciones a algunos problemas cotidianos, creación de páginas wed en Wordpress y Base de datos desde la terminal de Linux, Creación de User en Git Hub, Lider de grupo de trabajo.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>1° Año </h4>
+                        <span class="casa">Experiencia</span>
+                        <span class="fecha">2022</span>
+                        <p>Creación de un prototipo Contador de Monedas en entronos de Arduino y programación en Lenguaje C++, Liderando un grupo para ejecutar un proyecto, Parcitipación en la Feria CIMAT 2022, Editar Videos para presentar proyecto innovador Utilizando programas de Adobe. Edición de imagen y foto profesional en Photoshop, Creación de Circuitos lógicos en Robótica Educativa, Desarrollo de lógica de programación creando programas para resolver problemas cotidianos al ser humano utilizando programa Pseint, Escribir en Numeros Binarios palabras, Lider de grupo de trabajo</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>2° AÑO</h4>
+                        <span class="casa">Experiencia </span>
+                        <span class="fecha">2023</span>
+                        <p>Creación de página wed en entorno Netbeans Utilizando lenguajes de programación Java, JS, html, Php, Css, Creación de Tablas en base de datos en SQL server, Práticas en Linux instalación y ejecución, primer encuentro con Impresión 3D, Creación de Protyecto innovador Cerradura con hulla Dactilar Participando en una Feria CIMAT, Lider de grupo de Trabajo</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>3° AÑO </h4>
+                        <span class="casa">Experiencia</span>
+                        <span class="fecha">2024</span>
+                        <p>Programación Orientada a Objetos, creación y ejecución de base de datos tablas, Introducción a Git Hub, Creación de un User en Git hub y creación en equipo de editores para programar y editar un proyecto en Linea, creación de repositorios git, Introducción y dominio de Impresoras 3D, Creación de base de datos en entorno MariaDB desde la terminal de Linux creación de user en entorno como crear tablas importar y exportar base de datos, y phpMyAdmin, Creación de Página wed en Wordpress creando un proyecto emprendedor para una empresa de productos Tecnólogicos creando y utilizando una base de datos par sus registros y administración en entorno Linux, Formateo de Computadoras y instalando un sistema operativo ligero,programación en entorno REACT, Creación de una App en Android Studio, creación de proyecto tecnologico innovador minador de Criptomonedas y participando en un concurso CIMAT, Dominio de Sistemas Opensours GNU/LINUX parrot, Kali, Ubuntu, coordinador de Grupo de Trabajo.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <!-- COLOCAR MIS PROYECTOS-->
+            <!--hhhhh-->
+            <h1>Mis Proyectos</h1>
+
+            <!-- Botón con evento de redirección -->
+            <button class="MisProyectos.html" onclick="window.location.href='Mis Proyectos.html';">
+                VER
+            </button>
+            <!--hhhhhh-->
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Android Studio2024.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño en entorno Android Studio</h3>
+                        <p>Año 2024</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/ubuntu.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Prácticas en entorno Linux</h3>
+                        <p>Distro Ubuntu, Kali & Parrot 2023-2024</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/3D mis diseños.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño 3D en Thinkercad</h3>
+                        <p>Creación de llavero personalizado 3°AÑO BTV SOFTWARE</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Diseño echo de cero con Adobe Illustrador.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño de carnet personalizado</h3>
+                        <p>modelo para Docentes</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/miner.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Proyecto minador de criptomonedas EcoBitcoin SV</h3>
+                        <p>3° Año BTV SOFTWARE</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/react.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Creación de una página wed Utilizando entorno React en Linux</h3>
+                        <p>3° Año BTV SOFTWARE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/Ubicación en tiempo real.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                El Salvador, San Miguel Tepezontes. La Paz Centro
+                                B° El Calvario Calle a Lago Ilopango
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +503 6024-9984
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: isaaclopezz983@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/IssELop"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://youtu.be/9d7ExX4Pw34"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://github.com/IsaacL066"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/invites/contact/?igsh=1upy10erd3tlg&utm_content=o9leb1f"><i class="fa-brands fa-instagram"></i></a>
+    
+            
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
